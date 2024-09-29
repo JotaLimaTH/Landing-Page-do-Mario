@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 64px;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 24px;
+    width: 100%;
+    max-width: 1440px;
+}
+
+header img{
+    width: 70px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    list-style: none;
+}
+
+.navigation_link{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navigation_social {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
